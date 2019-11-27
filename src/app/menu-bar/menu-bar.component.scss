@@ -1,18 +1,27 @@
-ul 
-{
-	display: inline-flex;
-	list-style-type:none;
+$logo-font: "Kaushan Script", cursive;
+$main-color: #51cc92;
+
+#logo {
+  font-family: $logo-font;
+  padding: 5px;
+  margin-right: 10%;
+  border: solid;
+}
+ul {
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none;
 }
 li {
-	margin-right : 10%;
+  margin-right: 10%;
 }
 a {
-	text-decoration:none;
-	color:black;
-	transition-duration: 0.08s;
-	transition-timing-function:ease-in-out;
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.08s;
+  transition-timing-function: ease-in-out;
 }
 a:hover {
- border-bottom: solid;
- 
+  border-color: red;
+  border-bottom: solid;
 }
