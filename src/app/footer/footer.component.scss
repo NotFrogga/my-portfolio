@@ -1,0 +1,12 @@
+$background-color:#51CC92;
+$height : 10rem;
+
+footer {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	height: $height;
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+	background-color : $background-color;
+}

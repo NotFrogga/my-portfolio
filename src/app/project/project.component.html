@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <figure>
   <img [src]="imgSource" />
   <div>
@@ -6,6 +7,16 @@
     <p>
       <span class="underline">Programming skills</span> :
       {{ programmingSkills }}
+=======
+<figure *ngFor="let key of objectKeys(projects)">
+  <img [src]="projects[key].imgUrl" />
+  <div>
+    <h3>{{ projects[key].title }}</h3>
+    <p>{{ projects[key].description }}</p>
+    <p>
+      <span class="underline">Programming skills</span> :
+      {{ projects[key].programmingSkills }}
+>>>>>>> ea4e5bb... fix
     </p>
   </div>
 </figure>

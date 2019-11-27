@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
+=======
+import { ProjectComponent } from '../project/project.component';
+import { ProjectService } from '../project/project.service';
+>>>>>>> ea4e5bb... fix
 
 @Component({
   selector: 'app-projects-page',
