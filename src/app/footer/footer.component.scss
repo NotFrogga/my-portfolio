@@ -1,9 +1,10 @@
 $background-color: #51cc92;
-$height: 30rem;
+$height: 40rem;
 
 footer {
   color: white;
-  position: absolute;
+	position: absolute;
+	align-items: center;
   bottom: 0;
   width: 100%;
   height: $height;
@@ -11,7 +12,38 @@ footer {
   background-color: $background-color;
 }
 
+img{
+	height: 90px;
+	width: 90px;
+}
+
+
 footer > div {
-  padding-top: 10rem;
-  text-align: center;
+	text-align: center;
+}
+
+#contact {
+padding-top : 5rem;
+}
+
+#logo {
+	text-align:center;
+	margin-top : 3rem;
+}
+
+#logo a {
+	margin: 0 2rem;
+}
+
+h1 {
+	margin-bottom: 4%;
+}
+
+#email {
+	font-family : poppins;
+	border: 5px solid white;
+	font-size : 150%;
+	text-decoration: none;
+	color:white;
+	padding: 15px;
 }

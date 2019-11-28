@@ -1,5 +1,15 @@
 $main-color: #51cc92;
 
+@font-face {
+	font-family: poppins;
+	src: url(assets/fonts/Poppins-Regular.ttf) format("opentype");
+}
+
+@font-face {
+	font-family: pacifico;
+	src: url(assets/fonts/Pacifico-Regular.ttf) format("opentype");
+}
+
 html,
 body {
   min-height: 100vh;
@@ -10,7 +20,11 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 #content-wrap {
-  padding-bottom: 30rem; /* Footer height */
+  padding-bottom: 40rem; /* Footer height */
+}
+p {
+	font-size : 110%;
+	font-family: poppins;
 }
 
 h3 {
