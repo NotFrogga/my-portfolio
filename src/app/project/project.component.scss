@@ -1,9 +1,16 @@
 img {
+	border-radius: 10px;
 	height : 200px;
 	min-height:200px;
 	width : 200px;
 	min-width : 200px;
-	padding-right: 20px;
+	margin-right: 20px;
+	transition: ease-in-out 0.2s;
+}
+
+img:hover {
+
+	transform: scale(1.05);
 }
 
 figure {
