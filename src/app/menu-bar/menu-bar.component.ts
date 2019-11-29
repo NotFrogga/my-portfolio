@@ -10,6 +10,10 @@ export class MenuBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
+	}
+	
+	scrollDown() {
+		window.scrollTo(0, window.innerHeight);
+	}
 
 }

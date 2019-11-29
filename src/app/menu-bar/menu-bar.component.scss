@@ -17,12 +17,12 @@ li {
   margin-right: 10%;
 }
 a {
+	cursor:pointer;
   text-decoration: none;
   color: black;
   transition-duration: 0.08s;
   transition-timing-function: ease-in-out;
 }
 a:hover {
-  border-color: red;
-  border-bottom: solid;
+  border-bottom: solid $main-color;
 }
