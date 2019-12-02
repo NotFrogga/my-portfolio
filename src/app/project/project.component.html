@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <figure class="animated fadeInLeft" *ngFor="let key of objectKeys(projects)">
 	<a href="'//' + project[key].link" target="_blank">
 		<img [src]="projects[key].imgUrl" />
@@ -10,4 +11,18 @@
 			{{ projects[key].programmingSkills }}
 		</p>
 	</div>
+=======
+<figure *ngFor="let key of objectKeys(projects)">
+  <a [attr.href]="'//' + projects[key].link" target="_blank">
+    <img [src]="projects[key].imgUrl" />
+  </a>
+  <div>
+    <h3>{{ projects[key].title }}</h3>
+    <p>{{ projects[key].description }}</p>
+    <p>
+      <span class="underline">Programming skills</span> :
+      {{ projects[key].programmingSkills }}
+    </p>
+  </div>
+>>>>>>> 3352478... fix(project-component): links to projects websites
 </figure>
