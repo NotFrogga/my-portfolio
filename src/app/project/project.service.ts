@@ -9,7 +9,7 @@ export class ProjectService {
 				The goal is to successfully remove every card.`,
         imgUrl: "assets/img/cards.jpg",
         programmingSkills: "HTML, CSS, Javascript",
-        link: "www.lehich.com/projects/flipthecards/"
+        link: "https://www.lehich.com/projects/flipthecards/"
       },
       1: {
         title: "My Secret Diary",
@@ -17,7 +17,7 @@ export class ProjectService {
           "Web app in which you use a login and password to connect to your secret diary. The diary is updated automatically and is stored in a SQL database.",
         imgUrl: "assets/img/diary-page.jpg",
         programmingSkills: "HTML, Bootstrap, Javascript, PHP, MySQL",
-        link: "www.lehich.com/projects/secretdiary/"
+        link: "https://www.lehich.com/projects/secretdiary/"
       },
       2: {
         title: "Weather Forecast",
@@ -25,7 +25,7 @@ export class ProjectService {
           "Web app in which you can see a short forecast a city by using OpenWeatherMap API",
         imgUrl: "assets/img/clouds.jpg",
         programmingSkills: "HTML, Bootstrap, Javascript, HTTP REST",
-        link: "www.lehich.com/projects/weatherforecast/"
+				link: "https://www.lehich.com/projects/weatherforecast/"
       }
     };
   }

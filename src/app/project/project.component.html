@@ -1,5 +1,5 @@
 <figure class="animated fadeInLeft" *ngFor="let key of objectKeys(projects)">
-	<a href="'//' + project[key].link" target="_blank">
+	<a [href]="projects[key].link" target="_blank">
 		<img [src]="projects[key].imgUrl" />
 	</a>
 	<div>
