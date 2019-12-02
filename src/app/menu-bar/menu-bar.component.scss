@@ -26,3 +26,9 @@ a {
 a:hover {
   border-bottom: solid $main-color;
 }
+
+@media screen and (max-width:640px) {
+	li {
+		margin-right: 5%;
+	}
+}

@@ -13,15 +13,16 @@ $main-color: #51cc92;
 html,
 body {
   min-height: 100vh;
-  position: relative;
+	position: relative;
+	scroll-behavior: smooth;
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+	display : flex;
+	flex-direction: column;
 }
-#content-wrap {
-  padding-bottom: 40rem; /* Footer height */
-}
+
 p {
 	font-size : 110%;
 	font-family: poppins;
@@ -29,4 +30,13 @@ p {
 
 h3 {
   color: $main-color;
+}
+
+/*
+* Mobile css
+*/
+@media screen and (max-width: 640px) {
+	p {
+		font-size : 100%;
+	}
 }

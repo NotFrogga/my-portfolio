@@ -1,5 +1,5 @@
 #home-page-container {
-  margin: 0 15%;
+	margin: 0 15%;
 }
 #section-1 {
 	text-align: center;
@@ -17,4 +17,23 @@
 
 .main-color{
 	color:#51CC92;
+}
+
+@media screen and (max-width: 640px) {
+	#home-page-container {
+	}
+
+	#section-1 {
+		height: 100vh;
+		padding-top:20%;
+	}
+
+	img {
+		height: 60px;
+		width: 60px;
+	}
+
+	p {
+		text-align: justify;
+	}
 }

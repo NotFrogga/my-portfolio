@@ -3,8 +3,10 @@ $height: 40rem;
 
 footer {
   color: white;
-	position: absolute;
-	align-items: center;
+	align-self: flex-end;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
   bottom: 0;
   width: 100%;
   height: $height;
@@ -20,10 +22,6 @@ img{
 
 footer > div {
 	text-align: center;
-}
-
-#contact {
-padding-top : 5rem;
 }
 
 #logo {
@@ -43,13 +41,43 @@ h1 {
 	font-family : poppins;
 	border: 5px solid white;
 	font-size : 150%;
-	text-decoration: none;
-	color:white;
 	padding: 15px;
 }
 
+a {
+	text-decoration: none;
+	color:white;
+}
+
 #copyright{
-	position: absolute;
-	bottom:0;
+	align-self: flex-end;
+	text-align: center;
 	width:100%;
+	bottom:0;
+}
+
+@media screen and (max-width: 640px) {
+
+	footer {
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+	}
+	footer > div {
+		font-size : 90%;
+	}
+	h1 {
+		margin-bottom:50px;
+	}
+	img{
+		height: 40px;
+		width: 40px;
+	}
+	#email {
+		margin-top:50px;
+		font-family : poppins;
+		border: 3px solid white;
+		font-size : 90%;
+		text-decoration: none;
+		color:white;
+		padding: 10px;
+	}
 }
