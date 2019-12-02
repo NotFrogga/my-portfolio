@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <figure class="animated fadeInLeft" *ngFor="let key of objectKeys(projects)">
 	<a href="project[key].link" target="_blank">
 		<img [src]="projects[key].imgUrl" />
@@ -11,3 +12,18 @@
 		</p>
 	</div>
 </figure>
+=======
+<figure *ngFor="let key of objectKeys(projects)">
+  <a [attr.href]="'//' + projects[key].link" target="_blank">
+    <img [src]="projects[key].imgUrl" />
+  </a>
+  <div>
+    <h3>{{ projects[key].title }}</h3>
+    <p>{{ projects[key].description }}</p>
+    <p>
+      <span class="underline">Programming skills</span> :
+      {{ projects[key].programmingSkills }}
+    </p>
+  </div>
+</figure>
+>>>>>>> 3352478d4bdc3443e8578529d42c1ddc0c5bf17b
