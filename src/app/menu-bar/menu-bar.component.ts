@@ -13,7 +13,7 @@ export class MenuBarComponent implements OnInit {
 	}
 	
 	scrollDown() {
-		window.scrollTo(0, window.innerHeight);
+		window.scrollTo(0, document.body.scrollHeight);
 	}
 
 }
