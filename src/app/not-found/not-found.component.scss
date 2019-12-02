@@ -1,0 +1,40 @@
+div {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	color:#51CC92;
+}
+
+p {
+	text-align: center;
+}
+
+.button {
+	border : 3px solid #51CC92;
+	color:#51CC92;
+	padding : 5px;
+	font-size : 200%;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width : 640px) {
+	img {
+		height:200px;
+	}
+	div h1 {
+		font-size: 140%;
+	}
+	div p {
+		font-size: 100%;
+		margin: 2px 2px;
+	}
+	.button {
+		font-size:150%;
+	}
+}
